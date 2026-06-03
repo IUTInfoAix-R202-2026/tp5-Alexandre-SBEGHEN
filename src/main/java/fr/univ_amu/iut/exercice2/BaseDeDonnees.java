@@ -46,7 +46,6 @@ public class BaseDeDonnees {
     // 3. source = sqlite;
     SQLiteConfig config = new SQLiteConfig();
     config.enforceForeignKeys(true);
-
     SQLiteDataSource sqlite = new SQLiteDataSource(config);
     sqlite.setUrl("jdbc:sqlite:" + chemin);
 
